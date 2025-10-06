@@ -70,11 +70,22 @@ li {
   border: dashed black 5px;
   font-size: 18px;
 }
+#services {
+  margin-left: 10px;
+}
+
+#about {
+  margin-left: 10px;
+}
 
 .about-a {
   background-color: rgb(255, 255, 153);
   border-radius: 5px;
   padding: 10px;
+}
+
+#contact {
+  margin-left: 10px;
 }
 
 .contact-li {
@@ -96,6 +107,7 @@ li {
 
 .second-h2 {
   text-transform: uppercase;
+  margin-left: 10px;
 }
 
 .b1 {
@@ -129,4 +141,250 @@ li {
 .b1:focus {
   outline: 1px solid rgba(0, 120, 170, 0.25);
   outline-offset: 1px;
+}
+
+.ui-section {
+  padding: 10px;
+  text-align: center;
+}
+
+.btn-prime {
+  background-color: rgb(47, 151, 185);
+  color: white;
+  border: solid rgb(35, 35, 128) 1px;
+  border-radius: 5px;
+  padding: 4px;
+  transition: transform 300ms ease, background-color 300ms ease, box-shadow 200ms ease;
+}
+
+.btn-prime:hover {
+  background-color: rgb(106, 255, 0);
+  cursor: pointer;
+}
+
+.btn-prime:active {
+  background-color: rgb(59, 59, 255);
+  transform: translateY(0) scale(.88);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+}
+
+.btn-secnd {
+  background-color: rgb(227, 227, 227);
+  border: solid rgb(158, 158, 158) 1px;
+  border-radius: 5px;
+  padding: 4px;
+  transition: transform 300ms ease, background-color 300ms ease, box-shadow 200ms ease;
+}
+
+.btn-secnd:hover {
+  background-color: rgb(106, 255, 0);
+  cursor: pointer;
+}
+
+.btn-secnd:active {
+  background-color: rgb(158, 158, 158);
+  transform: translateY(0) scale(.88);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+}
+
+.ui-alerts {
+  margin-left: 10px;
+}
+
+.ui-alert {
+  font-size: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.alert-success {
+  background-color: rgb(125, 234, 125);
+  border: solid green .8px;
+  border-radius: 2px;
+  font-size: 6px;
+  width: 80%;
+  padding: 2px;
+  margin-bottom: 3px;
+}
+
+.alert-warning {
+  background-color: rgb(255, 255, 153);
+  border: solid orange .8px;
+  border-radius: 2px;
+  font-size: 6px;
+  width: 80%;
+  padding: 2px;
+}
+
+.ui-badges {
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+
+.badge-new {
+  background-color: rgb(99, 249, 99);
+  color: rgb(9, 125, 102);
+  border: solid black 2px;
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px
+}
+
+.badge-info {
+  background-color: rgb(219, 236, 255);
+  color: rgb(84, 24, 133);
+  border: solid black 2px;
+   font-weight: bold;
+  border-radius: 20px;
+  padding: 5px 10px 5px 10px
+}
+
+.badge-sale {
+  background-color: rgb(238, 207, 199);
+  color: rgb(160, 14, 14);
+  font-weight: bold;
+  border: solid black 2px;
+  border-radius: 20px;
+  padding: 5px 10px 5px 10px
+}
+
+.ui-card {
+  margin-top: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+  border: solid black 1px;
+  border-radius: 5px;
+  margin: 10px auto;
+  padding: 10px;
+  width: 70%;
+}
+
+.card-h2 {
+  text-align: center;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0px 0px 5px 0px;
+}
+
+.card-txt {
+  font-size: 10px;
+}
+
+.card-lnk {
+  color: rgb(65, 154, 255);
+  text-decoration: underline;
+  font-size: 10px;
+}
+
+.btn-primary {
+  background-color: rgb(47, 151, 185);
+  color: white;
+  font-size: 9px;
+  border: solid rgb(0, 0, 0) 1px;
+  border-radius: 3px;
+  padding: 2px 4px 2px 4px;
+}
+
+.head-bar {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 25px 0px 50px 0px;
+}
+
+.head-title {
+  text-align: center;
+}
+
+.brand {
+  color: white;
+  background-color: black;
+  border: solid black;
+  border-radius: 3px;
+  margin: 0;
+  height: 16px;
+}
+
+.site-h3 {
+  margin: 1px 0px 0px 3px;
+  font-size: 5px;
+}
+
+.btn-header {
+  background-color: rgb(255, 255, 255);
+  border: solid black;
+  border-radius: 2px;
+  margin-left: 2px;
+  padding: .5px 1px .5px 1px;
+  font-size: 4px;
+  color: black;
+  position: relative;
+  top: -9px;
+}
+
+.pricing-table {
+  margin: 0px 0px 40px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.price-div1{
+  background-color: #ebedfb;
+  border: solid black 1px;
+  border-radius: 7px;
+  margin: 20px auto 20px auto;
+  width: 50%;
+  height: 135px;
+}
+
+.price-div2 {
+  background-color: rgb(244, 255, 240);
+  border: solid black 1px;
+  border-radius: 7px;
+  margin: 20px auto 20px auto;
+  width: 50%;
+  height: 135px;
+}
+
+.price-div3 {
+  background-color: rgb(255, 251, 231);
+  border: solid black 1px;
+  border-radius: 7px;
+  margin: 20px auto 20px auto;
+  width: 50%;
+  height: 135px;
+}
+
+.table-title {
+  margin: 8px 0px 0px 12px;
+}
+
+.tbl-ul {
+  padding: 0;
+  margin: 0px 0px 0px 12px;
+  position: relative;
+  top: 5px;
+}
+
+.price-tbl {
+  color: rgb(58, 119, 224);
+  margin: 0px auto 10px auto;
+}
+
+.tbl-list {
+  margin: 20px auto 20px auto;
+  font-size: 12px;
+  margin: 0px 0px 8px 0px;
+  padding: 0;
+}
+
+.price-btn {
+  font-size: 9px;
+  position: relative;
+  top: -5px;
 }
